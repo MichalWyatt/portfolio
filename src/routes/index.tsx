@@ -33,8 +33,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Toaster, toast } from "sonner";
-import portraitAsset from "@/assets/michal-portrait.jpg.asset.json";
-const portrait = portraitAsset.url;
+const portrait = "https://media.licdn.com/dms/image/v2/D5603AQFMGXLAQwb8YQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723061608087?e=1783555200&v=beta&t=zAHlWXJ9ku_cHERG5zM6MhMT40gtSnx8jAXous6I5Aw"
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Route = createFileRoute("/")({
